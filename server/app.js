@@ -7,7 +7,7 @@ const app = express();
 const PORT = 3001;
 
 mongoose.connect(
-  "mongodb+srv://ruslan:Ruslan424540575600@todo-express-a2lpt.mongodb.net/",
+  "mongodb+srv://ruslan:Ruslan424540575600@todo-express-a2lpt.mongodb.net/graphql",
   { useNewUrlParser: true, useUnifiedTopology: true }
 );
 
